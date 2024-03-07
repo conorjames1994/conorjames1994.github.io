@@ -1,0 +1,169 @@
+---
+title: Fixture list
+layout: template
+filename:arsenal.md
+--- 
+<style>
+  .body {
+    overflow: hidden;
+    position: relative;
+  }
+   .img {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+   }
+
+  
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'bebas neue';
+    color:rgb(134, 16, 16);
+    margin-bottom: 0px;
+    position: relative;
+    background-color: beige;
+  
+    
+  }
+  .table {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: 2px solid;
+    color: rgba(171, 166, 40, 0.961);
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    
+  }
+ th, td{
+  border: 2px solid;
+  color: rgb(0, 0, 0);
+  align-content: center;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+ h4 {
+  color: rgb(134, 16, 16);
+  text-align: center;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  padding-top: 0px;
+  background-color: beige;
+
+}
+ p {
+  margin-top: 0;
+ }
+
+ 
+ 
+</style>
+
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <head>
+    
+
+  </head>
+  <header>
+    <h1>
+      Arsenal upcoming fixtures
+    </h1>
+
+  </header>
+  <body>
+    <div class="body">
+    <img class="img" src="images/arsenal-fc-wallpaper-sidik-wahid.jpg" alt="">
+    <table class="table">
+      
+      <tbody>
+        <tr>
+          <th>
+            Week
+          </th>
+          <th>
+            Home
+          </th>
+          <th>
+            Away
+          </th>
+        </tr>
+  
+        <tr>
+          <td>Week1</td>
+          <td>Brentford</td>
+        </tr>
+        <tr>
+          <td>week2</td>
+          <td></td>
+          <td>Chelsea</td>
+        </tr>
+        <tr>
+          <td>week3</td>
+          <td>Man City</td>
+        </tr>
+        <tr>
+          <td>week4</td>
+          <td></td>
+          <td>Luton Town</td>
+        </tr>
+        <tr>
+          <td>week5</td>
+          <td>Brighton</td>
+        </tr>
+        <tr>
+          <td>week6</td>
+          <td></td>
+          <td>Aston Villa</td>
+        </tr>
+        <tr>
+          <td>week7</td>
+          <td>Wolves</td>
+        </tr>
+        <tr>
+          <td> week8</td>
+          <td></td>
+          <td>Tottenham</td>
+        </tr>
+        <tr>
+          <td>week9</td>
+          <td>Bournemouth</td>
+        </tr>
+        <tr>
+          <td>
+            week10
+          </td>
+          <td>
+          
+          </td>
+          <td> Man United</td>
+        </tr>
+
+        
+      </tbody>
+    </table>
+    </div>
+
+  </body>
+  <footer>
+    <h4>
+      <p>
+        Author: Conor James
+      </p>
+      <p> Contact info: conor.james@nhs.net</p>
+    </h4>
+
+  </footer>
+</html>
